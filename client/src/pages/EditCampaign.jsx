@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useWeb3Context } from "../context/Web3Context";
-import { convertToSolidityTimestamp, EthToWei } from "../util/conversions";
+import { convertToSolidityTimestamp, EthToWei } from "../util/Conversions";
 import { useParams } from "react-router";
 
 const EditCampaign = () => {

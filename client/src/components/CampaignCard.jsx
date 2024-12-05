@@ -1,5 +1,5 @@
 import React from "react";
-import { getPercentage } from "../util/conversions";
+import { getPercentage } from "../util/Conversions";
 
 const CampaignCard = ({ data }) => {
   const isClosed = getPercentage(data?.amountCollected, data?.target) > 100;

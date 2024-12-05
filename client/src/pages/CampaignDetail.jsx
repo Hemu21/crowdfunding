@@ -7,7 +7,7 @@ import {
   getPercentage,
   getTimeLeft,
   WeiToEth,
-} from "../util/conversions";
+} from "../util/Conversions";
 
 const CampaignDetail = () => {
   const {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useWeb3Context } from "../context/Web3Context";
-import { convertToSolidityTimestamp, EthToWei } from "../util/conversions";
+import { convertToSolidityTimestamp, EthToWei } from "../util/Conversions";
 
 const CreateCampaign = () => {
   const { createCampaign } = useWeb3Context();

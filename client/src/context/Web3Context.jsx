@@ -7,7 +7,7 @@ import {
   readContract,
 } from "thirdweb";
 import { client } from "../client";
-import { BigIntToHumanReadable, getTimeLeft, WeiToEth } from "../util/conversions";
+import { BigIntToHumanReadable, getTimeLeft, WeiToEth } from "../util/Conversions";
 
 const web3Context = createContext();
 const address = import.meta.env.VITE_ADDRESS;
